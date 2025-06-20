@@ -15,7 +15,7 @@ interface HTMLAttribute {
 
 /**
  * Returns <img> HTML tag with id, src, alt and provided attribute list set.
- * @param idName sets "id" for <img>
+ * @param idName sets "id" for <img> with provided string
  * @param src sets "src" for <img> with provided string
  * @param alt sets "alt" for <img> with provided string
  * @param attributes accepts HTMLAttribute array (see HTMLAttribute interface), converts it into Record
