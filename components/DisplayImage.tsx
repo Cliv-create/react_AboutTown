@@ -1,4 +1,5 @@
 import './DisplayImage.css';
+import { useEffect } from "react";
 
 interface DisplayImageProps {
     idName? : string;
@@ -21,6 +22,20 @@ interface HTMLAttribute {
  * @constructor
  */
 export function DisplayImage({ idName, src, alt, attributes = [] } : DisplayImageProps) {
+    // Unnecessary
+    useEffect(() => {
+        console.log(
+            'Added new img tag', '\n',
+            'id: ', idName, '\n',
+            'src: ', src, '\n',
+            'alt: ', alt, '\n',
+            'attributes: ', attributes
+        );
+        return () => { // cleanup-функция
+            console.log('img tag with id: ', idName, ' was removed');
+        };
+    }, [idName, src, alt, attributes]);
+
     const imgAttributes = attributes.reduce((acc, attr) => {
         acc[attr.name] = attr.value;
         return acc;

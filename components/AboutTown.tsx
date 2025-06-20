@@ -39,6 +39,9 @@ function AboutTown() {
                 idName='narp-logo'
                 src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/%D0%9D%D0%90%D0%A0%D0%9F_%D0%BB%D0%BE%D0%B3%D0%BE_%D1%83%D0%BA%D1%80.png/250px-%D0%9D%D0%90%D0%A0%D0%9F_%D0%BB%D0%BE%D0%B3%D0%BE_%D1%83%D0%BA%D1%80.png'
                 alt='Логотип НАРП'
+                attributes={[
+                        { name: "attr-test", value: "attr-test-value" },
+                ]}
             />
 
             <br/>
@@ -48,16 +51,32 @@ function AboutTown() {
             <p>Город поделён на четыре внутригородских района: Заводский, Ингульский, Корабельный и Центральный. </p>
             <p>В городе действует 65 общеобразовательных школ, лицеев, гимназий, коллегиумов, 3 вечерних школы, 71 дошкольное учебное учреждение, а также 12 частных и ведомственных учебных заведений</p>
             <p>Черноморский национальный университет имени Петра Могилы</p>
-            <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/%D0%A7%D0%9D%D0%A3_3.jpg/250px-%D0%A7%D0%9D%D0%A3_3.jpg'/>
+             <DisplayImage
+                idName='national-university'
+                src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/%D0%A7%D0%9D%D0%A3_3.jpg/250px-%D0%A7%D0%9D%D0%A3_3.jpg'
+                alt='Черноморский национальный университет имени Петра Могилы'
+             />
 
             <br/>
             <h2>Немного фотографий</h2>
 
             <p>Городской совет</p>
-            <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/%D0%97%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_%D0%93%D0%BE%D1%80%D0%BA%D0%BE%D0%BC%D0%B0_%D0%B2_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B5.jpg/250px-%D0%97%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_%D0%93%D0%BE%D1%80%D0%BA%D0%BE%D0%BC%D0%B0_%D0%B2_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B5.jpg'/>
+             <DisplayImage
+                idName='town-hall'
+                src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/%D0%97%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_%D0%93%D0%BE%D1%80%D0%BA%D0%BE%D0%BC%D0%B0_%D0%B2_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B5.jpg/250px-%D0%97%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_%D0%93%D0%BE%D1%80%D0%BA%D0%BE%D0%BC%D0%B0_%D0%B2_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B5.jpg'
+                alt='Городской совет'
+             />
 
             <p>Вид на город с высоты 10км</p>
-            <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/%D0%92%D0%B8%D0%B4_%D1%81%D0%B2%D0%B5%D1%80%D1%85%D1%83_%D0%BD%D0%B0_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2.jpg/250px-%D0%92%D0%B8%D0%B4_%D1%81%D0%B2%D0%B5%D1%80%D1%85%D1%83_%D0%BD%D0%B0_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2.jpg' height='10%' width='50%'/>
+             <DisplayImage
+                idName='entire-city-view'
+                src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/%D0%92%D0%B8%D0%B4_%D1%81%D0%B2%D0%B5%D1%80%D1%85%D1%83_%D0%BD%D0%B0_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2.jpg/250px-%D0%92%D0%B8%D0%B4_%D1%81%D0%B2%D0%B5%D1%80%D1%85%D1%83_%D0%BD%D0%B0_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2.jpg'
+                alt='Вид на город с высоты 10км'
+                attributes={[
+                        { name: "height", value: "10%" },
+                        { name: "width", value: "50%" },
+                ]}
+             />
 
             <p>Климат города холодный семиаридный, с умеренной малоснежной зимой и сухим жарким летом с нечастыми но сильными кратковременными грозовыми ливнями</p>
             <p>В целом, климат Николаева стал более теплым — за 30 лет среднегодовая температура поднялась на 0,7 °C. Также стало намного суше — среднегодовое количество осадков сократилось на 72 мм, а это около −15 % от исторического среднего многолетнего значения.</p>
