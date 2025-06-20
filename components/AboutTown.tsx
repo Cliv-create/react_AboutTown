@@ -1,11 +1,16 @@
 import './AboutTown.css';
+import { DisplayImage } from "./DisplayImage.tsx";
 
 function AboutTown() {
     return (
         <>
             <h1>Mykolaiv</h1>
 
-            <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/%D0%9C%D1%83%D0%B7%D0%B5%D0%B9_%D1%81%D1%83%D0%B4%D0%BD%D0%BE%D0%B1%D1%83%D0%B4%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F_%D1%82%D0%B0_%D1%84%D0%BB%D0%BE%D1%82%D1%83%2C_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%97%D0%B2.jpg/330px-%D0%9C%D1%83%D0%B7%D0%B5%D0%B9_%D1%81%D1%83%D0%B4%D0%BD%D0%BE%D0%B1%D1%83%D0%B4%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F_%D1%82%D0%B0_%D1%84%D0%BB%D0%BE%D1%82%D1%83%2C_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%97%D0%B2.jpg'/>
+             <DisplayImage
+                idName='naval-headquarters-building'
+                src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/%D0%9C%D1%83%D0%B7%D0%B5%D0%B9_%D1%81%D1%83%D0%B4%D0%BD%D0%BE%D0%B1%D1%83%D0%B4%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F_%D1%82%D0%B0_%D1%84%D0%BB%D0%BE%D1%82%D1%83%2C_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%97%D0%B2.jpg/330px-%D0%9C%D1%83%D0%B7%D0%B5%D0%B9_%D1%81%D1%83%D0%B4%D0%BD%D0%BE%D0%B1%D1%83%D0%B4%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F_%D1%82%D0%B0_%D1%84%D0%BB%D0%BE%D1%82%D1%83%2C_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%97%D0%B2.jpg'
+                alt = 'Будинок штабу флоту 1796 року. Будинок командира Чорноморського флоту та портів'
+             />
 
             <p>Город на юге Украины, административный центр Николаевской области. Один из крупнейших экономических центров юга Украины. </p>
 
@@ -17,7 +22,11 @@ function AboutTown() {
             <p>Николаев является крупным транспортным узлом Украины, в городе расположено 4 (и ещё 1 вблизи города) порта: Николаевский морской торговый порт, СМП «Ольвия», Николаевский речной порт, специализированный порт (терминал) Ника-Тера, Днепро-бугский морской порт. Главные экспортируемые товары: продукция сельского хозяйства, масла, глина, уголь, сера, металлолом, пиломатериалы, военная техника. </p>
             <br/>
             <p>Национальный университет кораблестроения имени адмирала Макарова</p>
-            <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/%E4%B9%8C%E5%85%8B%E5%85%B0%E5%9B%BD%E7%AB%8B%E9%80%A0%E8%88%B9%E5%A4%A7%E5%AD%A6.jpg/250px-%E4%B9%8C%E5%85%8B%E5%85%B0%E5%9B%BD%E7%AB%8B%E9%80%A0%E8%88%B9%E5%A4%A7%E5%AD%A6.jpg'/>
+             <DisplayImage
+                idName='national-university-of-shipbuilding'
+                src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/%E4%B9%8C%E5%85%8B%E5%85%B0%E5%9B%BD%E7%AB%8B%E9%80%A0%E8%88%B9%E5%A4%A7%E5%AD%A6.jpg/250px-%E4%B9%8C%E5%85%8B%E5%85%B0%E5%9B%BD%E7%AB%8B%E9%80%A0%E8%88%B9%E5%A4%A7%E5%AD%A6.jpg'
+                alt='Национальный университет кораблестроения имени адмирала Макарова'
+             />
 
             <br/>
             <br/>
@@ -26,7 +35,11 @@ function AboutTown() {
             <p>Кроме этого, в городе расположены предприятия электротехнической и электронной промышленности. Предприятие «Зоря — Машпроект» (один из немногих функционирующих заводов города) изготавливает многопрофильные газотурбинные двигатели и установки, которые используются как для оборудования кораблей, так и для транспортировки природного газа и производства электроэнергии</p>
             <p>Одним из крупнейших предприятий города является «Николаевский глинозёмный завод», который производит глинозём — сырье для производства алюминия (фото нет). Крупным предприятием также является Николаевский авиаремонтный завод «НАРП». </p>
             <p>Логотип НАРП</p>
-            <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/%D0%9D%D0%90%D0%A0%D0%9F_%D0%BB%D0%BE%D0%B3%D0%BE_%D1%83%D0%BA%D1%80.png/250px-%D0%9D%D0%90%D0%A0%D0%9F_%D0%BB%D0%BE%D0%B3%D0%BE_%D1%83%D0%BA%D1%80.png'/>
+            <DisplayImage
+                idName='narp-logo'
+                src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/%D0%9D%D0%90%D0%A0%D0%9F_%D0%BB%D0%BE%D0%B3%D0%BE_%D1%83%D0%BA%D1%80.png/250px-%D0%9D%D0%90%D0%A0%D0%9F_%D0%BB%D0%BE%D0%B3%D0%BE_%D1%83%D0%BA%D1%80.png'
+                alt='Логотип НАРП'
+            />
 
             <br/>
             <br/>
