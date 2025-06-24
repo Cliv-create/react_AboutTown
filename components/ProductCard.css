@@ -1,6 +1,122 @@
+/* Контейнер, в котором будут размещаться карточки */
+.product-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    padding: 1rem;
+}
+
+/* Отдельная карточка */
 .product-card {
-    display: block;
-    border-width: 2px;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease-in-out;
+}
+
+.product-card:hover {
+    transform: translateY(-2px);
+}
+
+.product-card-content {
+    padding: 1rem;
+}
+
+.product-card-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: left;
+    width: 100%;
+}
+
+.product-title {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    color: #4B5563;
+    line-height: 1.25;
+}
+
+.product-text {
+    margin-top: 0.25rem;
+    font-size: 0.75rem;
+    color: #6B7280;
+}
+
+.product-price-container {
+    margin-top: 1rem;
+}
+
+.product-price {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: black;
+}
+
+.product-price-suffix {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #6B7280;
+}
+
+.product-card-footer {
+    display: flex;
+    padding: 0 1rem 1rem;
+}
+
+.product-card-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 0.75rem;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 9999px;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.product-card-button:hover {
+    background-color: transparent;
+    color: black;
+}
+
+.product-card-button:focus,
+.product-card-button:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 2px black;
+}
+
+/* Адаптивность: минимальные корректировки */
+@media (max-width: 640px) {
+    .product-card-content {
+        padding: 0.75rem;
+    }
+
+    .product-card-footer {
+        padding: 0 0.75rem 0.75rem;
+    }
+
+    .product-title {
+        font-size: 0.9rem;
+    }
+
+    .product-price {
+        font-size: 1.25rem;
+    }
+
+    .product-price-suffix {
+        font-size: 0.75rem;
+    }
+
+    .product-card-button {
+        font-size: 0.7rem;
+        padding: 0.4rem 0.75rem;
+    }
 }
