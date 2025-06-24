@@ -1,5 +1,6 @@
 import './AboutTown.css';
 import { DisplayImage } from "./DisplayImage.tsx";
+import {ProductCard} from "./ProductCard.tsx";
 
 function AboutTown() {
     return (
@@ -80,6 +81,8 @@ function AboutTown() {
 
             <p>Климат города холодный семиаридный, с умеренной малоснежной зимой и сухим жарким летом с нечастыми но сильными кратковременными грозовыми ливнями</p>
             <p>В целом, климат Николаева стал более теплым — за 30 лет среднегодовая температура поднялась на 0,7 °C. Также стало намного суше — среднегодовое количество осадков сократилось на 72 мм, а это около −15 % от исторического среднего многолетнего значения.</p>
+
+            <ProductCard idName='product-card-on-page' title='title' text='text one two' price={10.50}/>
         </>
     )
 }

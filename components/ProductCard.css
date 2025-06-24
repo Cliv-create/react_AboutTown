@@ -1,0 +1,6 @@
+.product-card {
+    display: block;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.2);
+}

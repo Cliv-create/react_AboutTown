@@ -24,7 +24,7 @@ interface HTMLAttribute {
 export function DisplayImage({ idName, src, alt, attributes = [] } : DisplayImageProps) {
     // Unnecessary
     useEffect(() => {
-        console.log(
+        console.debug(
             'Added new img tag', '\n',
             'id: ', idName, '\n',
             'src: ', src, '\n',
@@ -32,7 +32,7 @@ export function DisplayImage({ idName, src, alt, attributes = [] } : DisplayImag
             'attributes: ', attributes
         );
         return () => { // cleanup-функция
-            console.log('img tag with id: ', idName, ' was removed');
+            console.debug('img tag with id: ', idName, ' was removed');
         };
     }, [idName, src, alt, attributes]);
 
