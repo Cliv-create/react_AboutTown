@@ -1,0 +1,153 @@
+.anketa-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background: linear-gradient(135deg, #e0f2fe, #f3e8ff);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.anketa-fieldset {
+    border: 2px solid #93c5fd;
+    padding: 25px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.anketa-legend {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1e40af;
+    letter-spacing: 1px;
+}
+
+.anketa-label {
+    display: inline-block;
+    width: 220px;
+    color: #1f2937;
+    font-weight: 500;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.anketa-input {
+    width: 380px;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.anketa-input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 8px rgba(59, 130, 246, 0.3);
+}
+
+.anketa-radio {
+    margin-right: 8px;
+}
+
+.anketa-radio-label {
+    color: #4b5563;
+    margin-right: 16px;
+    font-size: 15px;
+}
+
+.anketa-checkbox {
+    margin-right: 8px;
+}
+
+.anketa-checkbox-label {
+    color: #4b5563;
+    margin-right: 16px;
+    font-size: 15px;
+}
+
+.anketa-select {
+    width: 404px;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.anketa-select:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 8px rgba(59, 130, 246, 0.3);
+}
+
+.anketa-textarea {
+    width: 380px;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 16px;
+    resize: vertical;
+    transition: all 0.3s ease;
+}
+
+.anketa-textarea:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 8px rgba(59, 130, 246, 0.3);
+}
+
+.anketa-progress {
+    width: 380px;
+    height: 16px;
+    border-radius: 10px;
+    background: #e5e7eb;
+}
+
+.anketa-meter {
+    width: 380px;
+    height: 16px;
+    border-radius: 10px;
+    background: #e5e7eb;
+}
+
+.anketa-button {
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.anketa-button-submit {
+    background: #2563eb;
+    color: #ffffff;
+    border: none;
+}
+
+.anketa-button-submit:hover {
+    background: #1e40af;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+.anketa-button-reset {
+    background: #e5e7eb;
+    color: #1f2937;
+    border: none;
+    margin-left: 16px;
+}
+
+.anketa-button-reset:hover {
+    background: #d1d5db;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.anketa-error {
+    color: #d32f2f;
+    font-size: 0.9em;
+    margin-top: 5px;
+    margin-left: 10px;
+    display: block;
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+}
