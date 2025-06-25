@@ -1,6 +1,6 @@
 import './AboutTown.css';
-import { DisplayImage } from "./DisplayImage.tsx";
-import {ProductCard} from "./ProductCard.tsx";
+import { DisplayImage } from "../DisplayImage/DisplayImage.tsx";
+import {ProductCard} from "../ProductCard/ProductCard.tsx";
 
 function AboutTown() {
     return (

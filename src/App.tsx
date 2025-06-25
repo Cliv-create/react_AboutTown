@@ -2,7 +2,7 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
-import AboutTown from '../components/AboutTown.tsx'
+import AboutTown from './components/AboutTown/AboutTown.tsx'
 
 function AboutMe() {
     return (
