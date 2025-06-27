@@ -369,7 +369,7 @@ const Anketa = () => {
                     {/* кнопки */}
                     <input
                         type="submit"
-                        value="Submit"
+                        value={isPending ? 'Submitting...' : 'Submit'}
                         disabled={isPending}
                         className="anketa-button anketa-button-submit"
                     />
