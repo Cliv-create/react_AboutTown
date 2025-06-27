@@ -4,6 +4,7 @@
 import './App.css'
 import AboutTown from './components/AboutTown/AboutTown.tsx'
 import Anketa from "./forms/LoginForm/LoginForm.tsx";
+import { TimeDisplay } from "./components/TimeDisplay/TimeDisplay.tsx";
 
 function AboutMe() {
     return (
@@ -18,6 +19,7 @@ function App() {
 
   return (
     <>
+        <TimeDisplay />
         <AboutMe />
         <AboutTown />
         <Anketa />
